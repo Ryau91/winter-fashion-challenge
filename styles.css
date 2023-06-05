@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+}
+
+body {
+    background-image: url(images/lady.png), url(images/background.png); 
+    background-size: 45vw, 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 92.5% 100%, center;
+    width: 100vw; /* Make the container full width of the viewport */
+    height: 100vh; /* Make the container full height of the viewport */
+    margin: 0;
+    overflow: hidden;
+}
+
+.main-flex-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* top section */
+.top-section{
+    display:flex;
+}
+
+.logo img{
+    width: 16vw;
+}
+
+.navbar{
+    display:flex;
+    flex-grow: 1;
+}
+
+.navbar ul{
+    display:flex;
+}
+
+.navbar ul li{
+    padding: 2vw;
+    font-weight: bold;
+}
+
+.cart img{
+    width: 4vw;
+}
+
+/* main section */
+.main-section{
+    display:flex;
+    flex-grow: 1;
+}
+
+.sidebar{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sidebar img{
+    padding: 0.5vw;
+}
+
+.main-content-box{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    position: relative;
+    left: 12vw;
+}
+
+.collections{
+    width: 12vw;
+    font-size: 1.25vw;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to top right, #aaccff, #ff88ee);
+    border-radius: 10px;
+    position: relative;
+    left: 0.5vw;
+    bottom: 1vw;
+}
+
+.pretty{
+    width: 30vw;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.clothes{
+    font-size: 1.25vw;
+}
+.main-content{
+    padding: 0.5vw;
+}
+.buttons img{
+    margin: 1vw;
+    width: 3vw;
+}
